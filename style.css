@@ -28,3 +28,38 @@ header{
     }
 }
 
+main{
+    section{
+        padding: 3% 15% 10% 15%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        img{
+            width: 400px;
+        }
+    }
+}
+
+.pos-top-left{
+    position: top left;
+}
+.pos-top-center{
+    position: top center;
+}
+.pos-top-right{
+    position: top right;
+}
+.pos-bottom-left{
+    position: bottom left;
+}
+.pos-bottom-center{
+    position: bottom center;
+}
+.pos-bottom-right{
+    position: bottom right;
+}
+
+.brand{
+    color: gray;
+    font-size: 14px;
+}
