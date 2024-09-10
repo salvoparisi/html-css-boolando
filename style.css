@@ -122,7 +122,16 @@ footer{
     justify-content: space-between;
     padding: 30px 15%;
 }
-
+h3{
+    padding-bottom: 10px;
+}
+.info>a{
+    padding-right: 5px;
+    text-align: center;
+}
 .social>i{
     font-size: 25px;
+    padding-right: 5px;
+    padding-top: 10px;
+    text-align: center;
 }
