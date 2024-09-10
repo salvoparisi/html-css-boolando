@@ -99,11 +99,18 @@ main{
 .price{
     color: red;
 }
-.sale{
+.sale-container{
     position: absolute;
     bottom: 10%;
     left: 1%;
+}
+.sale{
     background-color: red;
     padding: 5px 10px;
     color: white;
+}
+.sostenibility{
+    padding: 5px 10px;
+    color: white;
+    background-color: green;
 }
