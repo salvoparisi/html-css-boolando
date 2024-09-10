@@ -8,7 +8,7 @@
 header{
     margin-left: -120px;
     padding: 15px;
-    background-color: orange;
+    background-color: rgb(255, 115, 0);
     display: flex;
     justify-content: space-around;
     div{
@@ -113,4 +113,16 @@ main{
     padding: 5px 10px;
     color: white;
     background-color: green;
+}
+/*end main*/
+footer{
+    display: flex;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    justify-content: space-between;
+    padding: 30px 15%;
+}
+
+.social>i{
+    font-size: 25px;
 }
