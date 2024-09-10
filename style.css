@@ -2,14 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
 
 header{
+    margin-left: -120px;
+    padding: 15px;
     background-color: orange;
     display: flex;
-    align-content: center;
-    nav{
-        display: inline;
+    justify-content: space-around;
+    div{
+        align-content: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 0 5px;
+    }
+    img{
+        width: 150px;
+    }
+    span{
+        color: white;
+        align-content: center;
     }
 }
+
