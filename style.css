@@ -27,7 +27,7 @@ header{
         align-content: center;
     }
 }
-
+/*end header*/
 main{
     section{
         padding: 3% 15% 10% 15%;
@@ -43,6 +43,7 @@ main{
 .pos-top-left{
     position: top left;
 }
+
 .pos-top-center{
     position: top center;
 }
@@ -58,8 +59,51 @@ main{
 .pos-bottom-right{
     position: bottom right;
 }
-
+/*end position*/
 .brand{
     color: gray;
     font-size: 14px;
+}
+
+.pos-top-left:hover{
+    content: url(./img/1b.webp);
+}
+.pos-top-center:hover{
+    content: url(./img/2b.webp);
+}
+.pos-top-right:hover{
+    content: url(./img/3b.webp);
+}
+.pos-bottom-left:hover{
+    content: url(./img/4b.webp);
+}
+.pos-bottom-center:hover{
+    content: url(./img/5b.webp);
+}
+.pos-bottom-right:hover{
+    content: url(./img/6b.webp);
+}
+/*end hover*/
+
+.img-container{
+    position: relative;
+}
+.heart{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 50px;
+}
+/*end heart*/
+
+.price{
+    color: red;
+}
+.sale{
+    position: absolute;
+    bottom: 10%;
+    left: 1%;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
 }
